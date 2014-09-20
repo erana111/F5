@@ -8,9 +8,8 @@ Array.prototype.sum = function() {
 
 function fillBuckets(ballsOpt, buckets, balls) {
     var items = [];
-
-    var debugCnt = 0;
     var steps = ballsOpt.length;
+
     for (var i=0; i<=balls; i++) {
         var step = 0;
         var tmpArr = [i];
